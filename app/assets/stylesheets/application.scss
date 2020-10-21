@@ -1,0 +1,77 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebebeb;
+}
+
+.card-content {
+  height: 200px;
+}
+
+.card-footer {
+  background-color: white;
+}
+
+h1 {
+  margin: 0px 0px 20px 0px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+// SHOW
+
+.banner {
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.flat-name {
+  background-color: #ebebeb;
+  margin: 20px;
+}
+
+.flat-description {
+  background-color: #ebebeb;
+  margin: 20px;
+}
+
+.flat-detail {
+  background-color: #ebebeb;
+  margin: 20px;
+}
+
+

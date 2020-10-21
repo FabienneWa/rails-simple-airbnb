@@ -1,0 +1,56 @@
+<div class="banner">
+
+</div>
+
+<div class="container">
+
+  <div class="flat-details">
+    <div class="flat-name">
+      <h2><%= @flat.name %></h2>
+      <p><%= @flat.address %></p>
+    </div>
+
+    <div class="flat-description">
+      <h2>A bit more about this flat...</h2>
+      <p><%= @flat.description %></p>
+    </div>
+
+    <div class="flat-detail">
+      <h2>Details</h2>
+        <p class="card-text"> <i class="fas fa-users"></i> <%= @flat.number_of_guests %></ class="card-text"> <i class="fas fa-euro-sign"></i> <%= @flat.price_per_night %></p>
+    </div>
+  </div>
+
+  <div class="book-part">
+    <div class="book">
+      <h2>Book this place!</h2>
+      <div class="col-auto">
+        <label class="sr-only" for="inlineFormInputGroup">From:</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">From:</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="12/10/2017">
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <label class="sr-only" for="inlineFormInputGroup">To:</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">To:</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="13/10/2017">
+          </div>
+        </div>
+      <button type="button" class="btn btn-success">Book</button>
+
+      <div class="share">
+        <p>Share</p>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-pinterest-square"></i>
+        <i class="fas fa-envelope-square"></i>
+      </div>
+    </div>
+</div>
